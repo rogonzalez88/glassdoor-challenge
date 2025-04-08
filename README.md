@@ -82,7 +82,7 @@ npm test
 
 ## 💠 To Do / Improvements
 
-- Implement `parse()` for `SQLAdapter` (SQL → MongoDB).
+- Implement `parse()` for `SQLAdapter` and `translate` for `MongoQueryAdapter` (SQL → MongoDB).
 - Add support for `INSERT`, `UPDATE`, `DELETE`.
 - Escape handling for values in SQL output.
 - More advanced syntax parsing (e.g., nested documents).
